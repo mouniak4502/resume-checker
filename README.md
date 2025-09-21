@@ -1,5 +1,17 @@
 # 📄 Resume Relevance Checker  
+🏆 Team Name: CodeCrafters
 
+👤 Team / Participant Details
+
+Name: Akumarthi Mounika
+
+Email: 22h41a4502mounika@gmail.com
+
+Contact: +91 9618946102
+
+College: Bonam Venkata Chalamayya Institute of Technology and Science
+
+Year of Pass-out: 2026
 [![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)](https://www.python.org/)  
 [![Streamlit](https://img.shields.io/badge/Streamlit-Deployed-brightgreen?logo=streamlit)](https://streamlit.io/)  
 [![GitHub stars](https://img.shields.io/github/stars/mouniak4502/resume-checker?style=social)](https://github.com/mouniak4502/resume-checker)  
