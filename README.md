@@ -59,3 +59,34 @@ cd resume-checker
 🌍 Deployed App
 
 👉 Click here to use the app
+from graphviz import Digraph
+
+# Create a flow diagram with colors and icons
+dot = Digraph("Resume_Relevance_Checker", format="png")
+
+dot.attr(rankdir="LR", size="8,5")
+dot.attr("node", shape="box", style="filled", fontname="Helvetica", fontsize="12")
+
+# Nodes with colors
+dot.node("A", "Upload Resume\n(PDF/DOCX)", fillcolor="#4C9AFF", fontcolor="white")
+dot.node("B", "Upload Job Description\n(TXT/DOCX)", fillcolor="#36B37E", fontcolor="white")
+dot.node("C", "Extract Text\n(Parsing)", fillcolor="#FFAB00", fontcolor="black")
+dot.node("D", "Extract Skills\n(NLP)", fillcolor="#FF5630", fontcolor="white")
+dot.node("E", "Compare Resume & JD\n(Skill Matching)", fillcolor="#6554C0", fontcolor="white")
+dot.node("F", "Generate Score\n(0-100%)", fillcolor="#00B8D9", fontcolor="white")
+dot.node("G", "Verdict\n(Good/Partial/Needs Improvement)", fillcolor="#172B4D", fontcolor="white")
+dot.node("H", "Interactive Visualizations\n(Charts & Graphs)", fillcolor="#FF6F61", fontcolor="white")
+
+# Edges
+dot.edges(["AC", "BC"])
+dot.edge("C", "D")
+dot.edge("D", "E")
+dot.edge("E", "F")
+dot.edge("F", "G")
+dot.edge("F", "H")
+
+# Save diagram
+output_path = "/mnt/data/resume_checker_flow_diagram_colored"
+dot.render(output_path, cleanup=True)
+
+output_path + ".png"
