@@ -4,3 +4,4 @@ python-docx
 plotly
 pandas
 PyMuPDF
+fuzzywuzzy
