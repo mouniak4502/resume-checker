@@ -44,3 +44,6 @@ Run the app:
 streamlit run app.py
 git clone https://github.com/mouniak4502/resume-checker.git
 cd resume-checker
+🌍 Deployed App
+
+👉 Click here to use the app
