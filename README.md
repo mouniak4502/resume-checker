@@ -1,5 +1,5 @@
 # 📄 Resume Relevance Checker  
-🏆 Team Name: CodeCrafters
+🏆 Team Name: SmartHire AI
 
 👤 Team / Participant Details
 
